@@ -1,13 +1,4 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
-
-// prints "hi" in the browser's dev tools console
 var slideIndex = 1;
-var title=document.querySelector(".title");
-var pos=0;
-var animationTimer=setInterval(move,4);
-
-
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -41,11 +32,3 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 } 
 
-
-function move(){
-  if(pos>=540){
-    animationTimer.clearInterval();
-  }
-  pos+=1
-  title.style.left=pos+"px";
-}
