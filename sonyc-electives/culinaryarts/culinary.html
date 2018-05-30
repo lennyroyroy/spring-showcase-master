@@ -102,8 +102,10 @@
         Pro ne facilis consequuntur.
       </p>
     </div>
+
+
     <br>
-    <fieldset id="reviews_container">
+<!--     <fieldset id="reviews_container">
       <legend>
         <h2>
           Reviews
@@ -117,12 +119,43 @@
         <li>"lorem ipsum"</li>
         
       </ul>
-    </fieldset>
+    </fieldset> -->
+  <div class="recipe-grid">  
+    <button onclick="flip1()">flip the card</button>
+    <section class="container">
+<!--       <img src = "portrait.png"> -->
+      <div class="card card1" onclick="flip1()">
+      <div class="front"></div>
+      <div class="back"></div>
+      </div>
+    </section>
+
+    <button onclick="flip2()">flip the card</button>
+    <section class="container">
+      <div class="card card2" onclick="flip2()">
+      <div class="front"></div>
+      <div class="back"></div>
+      </div>
+    </section>
+
+    <button onclick="flip3()">flip the card</button>
+    <section class="container">
+      <div class="card card3" onclick="flip3()">
+      <div class="front"></div>
+      <div class="back"></div>
+      </div>
+    </section>
+   </div> 
+
     <br>
       <a href="index.html"><button class="home_button">
         <strong>Home</strong></button></a>
 
     
     <script src="https://button.glitch.me/button.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
   </body>
 </html>
