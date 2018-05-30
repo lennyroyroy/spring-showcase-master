@@ -6,6 +6,108 @@
 
 }
 
+/**/
+.container {
+    width: 400px;
+    height: 460px;
+    position: relative;
+    border: 1px solid #ccc;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px;
+}
+.card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50%;
+}
+.card div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 260px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 140px;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.card .front {
+
+}
+
+.card1 .front {
+   /*Put a screenshot of the FOOD here*/
+  background-image: url('http://dealstomealsblog.com/wp-content/uploads/2013/06/chicken-kabobs-003.jpg');
+  background-repeat: no-repeat, repeat;
+}
+
+.card2 .front {
+   /*Put a screenshot of the FOOD here*/
+  background-image: url('https://images-gmi-pmc.edge-generalmills.com/549e441a-eed1-4e39-8ad3-6ae60ab3ad7f.jpg');
+  background-repeat: no-repeat, repeat;
+}
+
+.card3 .front {
+   /*Put a screenshot of the FOOD here*/
+  background-image: url('https://hips.hearstapps.com/del.h-cdn.co/assets/17/25/1024x683/gallery-1498148271-delish-easy-homemade-jambalaya-horizontal-1024.jpg?resize=768:*');
+  background-repeat: no-repeat, repeat;
+}
+.card1 .back {
+     /*Put a screenshot of the recipe here*/
+     background-image: url('ing.png');
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+.card2 .back {
+    /*Put a screenshot of the recipe here*/
+    background-image: url('ing.png');
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+.card3 .back {
+     /*Put a screenshot of the recipe here*/
+    background-image: url('ing.png');
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+.card.flipped {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+
+.recipe-grid{
+  border: solid red 1px;
+  display: flex;
+  justify-content:space-around;
+  height: 460px;
+}
+/**/
 
 /* Slideshow container */
 .slideshow-container {

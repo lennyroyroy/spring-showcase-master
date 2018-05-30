@@ -32,3 +32,24 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 } 
 
+
+
+// Card Flip
+function flip1() {
+    $('.card1').toggleClass('flipped');
+}
+
+function flip2() {
+    $('.card2').toggleClass('flipped');
+}
+
+function flip3() {
+    $('.card3').toggleClass('flipped');
+}
+
+
+
+
+
+// 
+
