@@ -47,6 +47,32 @@ function flip3() {
     $('.card3').toggleClass('flipped');
 }
 
+function flip4() {
+    $('.card4').toggleClass('flipped');
+}
+
+function flip5() {
+    $('.card5').toggleClass('flipped');
+}
+
+function flip6() {
+    $('.card6').toggleClass('flipped');
+}
+
+function flip7() {
+    $('.card7').toggleClass('flipped');
+}
+
+function flip8() {
+    $('.card8').toggleClass('flipped');
+}
+
+function flip9() {
+    $('.card9').toggleClass('flipped');
+}
+
+
+
 
 
 

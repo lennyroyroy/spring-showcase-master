@@ -52,7 +52,7 @@
 
 .card1 .front {
    /*Put a screenshot of the FOOD here*/
-  background-image: url('http://dealstomealsblog.com/wp-content/uploads/2013/06/chicken-kabobs-003.jpg');
+  background-image: url('https://i.imgur.com/FaKw7GG.png');
   background-repeat: no-repeat;
 }
 
@@ -69,6 +69,54 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
+  .card4 .front {
+   /*Put a screenshot of the FOOD here*/
+  background-image: url('https://i.imgur.com/JO6qLCi.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+  .card5 .front {
+   /*Put a screenshot of the FOOD here*/
+  background-image: url('https://i.imgur.com/QcQQENq.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+  .card6 .front {
+   /*Put a screenshot of the FOOD here*/
+  background-image: url('https://i.imgur.com/ocamJh3.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+  .card7 .front {
+   /*Put a screenshot of the FOOD here*/
+  background-image: url('https://i.imgur.com/3QtXYjv.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+  .card8 .front {
+   /*Put a screenshot of the FOOD here*/
+  background-image: url('https://i.imgur.com/4JFoi4K.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+  .card9 .front {
+   /*Put a screenshot of the FOOD here*/
+  background-image: url('https://i.imgur.com/kpmiwcg.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/**/
+/**/
+/**/
+
+
+
 .card1 .back {
      /*Put a screenshot of the recipe here*/
      background-image: url('ing.png');
@@ -81,7 +129,7 @@
 
 .card2 .back {
     /*Put a screenshot of the recipe here*/
-    background-image: url('https://i.imgur.com/uSFKoQ4.png');
+    background-image: url('https://i.imgur.com/MVBCPjR.png');
     -webkit-transform: rotateY( 180deg );
     -moz-transform: rotateY( 180deg );
     -o-transform: rotateY( 180deg );
@@ -98,6 +146,67 @@
     transform: rotateY( 180deg );
     background-repeat: no-repeat;
 }
+
+
+.card4 .back {
+     /*Put a screenshot of the recipe here*/
+     background-image: url('https://i.imgur.com/u7IHa4b.png');
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+    background-repeat: no-repeat;
+}
+
+.card5 .back {
+    /*Put a screenshot of the recipe here*/
+    background-image: url('https://i.imgur.com/MmZKXXD.png');
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+    background-repeat: no-repeat;
+}
+
+.card6 .back {
+     /*Put a screenshot of the recipe here*/
+    background-image: url('https://i.imgur.com/FHrC6KE.png');
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+    background-repeat: no-repeat;
+ }
+ .card7 .back {
+     /*Put a screenshot of the recipe here*/
+     background-image: url('https://i.imgur.com/EKIhdIr.png');
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+    background-repeat: no-repeat;
+}
+
+.card8 .back {
+    /*Put a screenshot of the recipe here*/
+    background-image: url('https://i.imgur.com/Kt8lZJf.png');
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+    background-repeat: no-repeat;
+}
+
+.card9 .back {
+     /*Put a screenshot of the recipe here*/
+    background-image: url('https://i.imgur.com/zXOWfBK.png');
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+    background-repeat: no-repeat;
+}   
+
 .card.flipped {
     -webkit-transform: rotateY( 180deg );
     -moz-transform: rotateY( 180deg );
@@ -109,7 +218,7 @@
 .recipe-grid{
   display: flex;
   justify-content:space-around;
-  height: 470px;
+  height: 450px;
 }
 /**/
 
