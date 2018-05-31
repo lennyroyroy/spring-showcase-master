@@ -8,7 +8,7 @@
 
 /**/
 .container {
-    width: 400px;
+    width: 470px;
     height: 460px;
     position: relative;
     border: 1px solid #ccc;
@@ -53,19 +53,21 @@
 .card1 .front {
    /*Put a screenshot of the FOOD here*/
   background-image: url('http://dealstomealsblog.com/wp-content/uploads/2013/06/chicken-kabobs-003.jpg');
-  background-repeat: no-repeat, repeat;
+  background-repeat: no-repeat;
 }
 
 .card2 .front {
    /*Put a screenshot of the FOOD here*/
-  background-image: url('https://images-gmi-pmc.edge-generalmills.com/549e441a-eed1-4e39-8ad3-6ae60ab3ad7f.jpg');
-  background-repeat: no-repeat, repeat;
+  background-image: url('https://i.imgur.com/WKkcJX6.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .card3 .front {
    /*Put a screenshot of the FOOD here*/
-  background-image: url('https://hips.hearstapps.com/del.h-cdn.co/assets/17/25/1024x683/gallery-1498148271-delish-easy-homemade-jambalaya-horizontal-1024.jpg?resize=768:*');
-  background-repeat: no-repeat, repeat;
+  background-image: url('https://i.imgur.com/8qTVT90.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .card1 .back {
      /*Put a screenshot of the recipe here*/
@@ -74,24 +76,27 @@
     -moz-transform: rotateY( 180deg );
     -o-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
+    background-repeat: no-repeat;
 }
 
 .card2 .back {
     /*Put a screenshot of the recipe here*/
-    background-image: url('ing.png');
+    background-image: url('https://i.imgur.com/uSFKoQ4.png');
     -webkit-transform: rotateY( 180deg );
     -moz-transform: rotateY( 180deg );
     -o-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
+    background-repeat: no-repeat;
 }
 
 .card3 .back {
      /*Put a screenshot of the recipe here*/
-    background-image: url('ing.png');
+    background-image: url('https://i.imgur.com/JUYG3Ec.png');
     -webkit-transform: rotateY( 180deg );
     -moz-transform: rotateY( 180deg );
     -o-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
+    background-repeat: no-repeat;
 }
 .card.flipped {
     -webkit-transform: rotateY( 180deg );
@@ -102,10 +107,9 @@
 
 
 .recipe-grid{
-  border: solid red 1px;
   display: flex;
   justify-content:space-around;
-  height: 460px;
+  height: 470px;
 }
 /**/
 
